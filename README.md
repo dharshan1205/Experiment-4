@@ -14,7 +14,30 @@
 9. Stop the program. 
 
 # Program
+```
 
+if x.isnumeric():  
+    x = int(x)  
+    temp = x  
+    cube = 0  
+
+    while temp > 0:  
+        digit = temp % 10  
+        cube += digit ** 3  
+        temp //= 10  
+
+    if cube == x:  
+        print("Armstrong Number")  
+    else:  
+        print("Not an Armstrong Number")  
+else:  
+    print("Enter a Positive Integer.")
+```
 # Output
 
+<img width="1646" height="550" alt="image" src="https://github.com/user-attachments/assets/c4fd3f68-8ba3-438d-ba52-386188892a0c" />
+
 # Result
+
+Result
+Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
