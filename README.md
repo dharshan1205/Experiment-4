@@ -15,7 +15,7 @@
 
 # Program
 ```
-
+x = input("Enter a number: ") 
 if x.isnumeric():  
     x = int(x)  
     temp = x  
@@ -34,10 +34,7 @@ else:
     print("Enter a Positive Integer.")
 ```
 # Output
-
-<img width="1646" height="550" alt="image" src="https://github.com/user-attachments/assets/c4fd3f68-8ba3-438d-ba52-386188892a0c" />
+<img width="521" height="68" alt="image" src="https://github.com/user-attachments/assets/7610f878-1530-4ad9-974d-58b0e37fe624" />
 
 # Result
-
-Result
 Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
